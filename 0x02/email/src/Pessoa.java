@@ -1,6 +1,6 @@
 public class Pessoa {
 
-    public static boolean emailValido(String emal) {
+    public static boolean emailValid(String emal) {
         if (emal.contains("@") && emal.length() < 50) {
             return true;
         }
