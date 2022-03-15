@@ -8,6 +8,7 @@ public class Person {
     private float salary;
 
     public Person(String name, String surname, int birthDate, boolean anotherCompanyOwner, boolean pensioner, boolean publicServer) {
+        super();
         this.name = name;
         this.surname = surname;
         this.birthDate = birthDate;
@@ -16,8 +17,8 @@ public class Person {
         PublicServer = publicServer;
     }
 
- /*  public Person() {
-    }*/
+   public Person() {
+    }
 
     public String getName() {
         return name;
